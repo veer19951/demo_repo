@@ -1,0 +1,38 @@
+Useful online tutorials-
+https://youtu.be/bb_LoXAC-zE -instruction on installing git bash and git on windows
+
+whenever starting with git for the very 1st time we have to setup user name and email so for that we have to run following command 
+git config --global user.name “Viraj Shah”
+and then for email
+git config --global user.email “Viraj_shah95@yahoo.com”
+and then to check we can run below code
+git config –list
+
+Basic commands to upload projects on github
+1-making current folder a git repo
+git init
+2-adding files that needs to be tracked-
+git add . (this will add all the files in the present folder where git bash is opened)
+git add file_name.ext (this will add this specific file for tracking)
+3-get current status of  git
+git status
+4-commit files to local repo
+git commit -m “type message that you want”
+5-to push local repo to remote server 1st add the url of where you want to push  
+git remote add origin paste_the_url 
+here origin is the alias for our server url
+to change the url of origin we can run following command-(https://stackoverflow.com/questions/53988638/git-fatal-protocol-https-is-not-supported )
+git remote set-url origin new_url
+6-push local repo to server 
+git push -u origin master 
+the above command will push the files to master branch
+
+
+To use Vim editor-
+To open a file use 
+vim file_name.ext then press i to insert like you are typing in a text file 
+after that press ESC to enter into command mode and then type “:wq” to save and exit
+https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started refer this
+https://www.redhat.com/sysadmin/vim-commands 
+https://www.designbombs.com/mastering-vim-commands-the-ultimate-list/ 
+
