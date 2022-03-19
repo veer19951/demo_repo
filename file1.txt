@@ -1,3 +1,5 @@
 hello this is file 1
 
 have added this 2nd line in the text file
+
+Added this line using Vim editior
